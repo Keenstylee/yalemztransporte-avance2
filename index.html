@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yalemz - Transporte y Logística</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+    <div class="header-content-wrapper">
+        <a href="#" class="logo-link">
+            <img src="logo_yalem.png" alt="Logo de la empresa Yalemz" class="header-logo">
+        </a>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="hero-image-section">
+    <div class="hero-overlay">
+        <h2>"Tu destino es nuestra prioridad"</h2>
+        <p>Conectando al Perú con seguridad y comodidad.</p>
+    </div>
+</section>
+
+
+<section class="search-form-section">
+    <form class="bus-search-form">
+        <div class="form-group">
+            <label for="origen">ORIGEN <span class="required">*</span></label>
+            <select id="origen" name="origen" required>
+                <option value="">Seleccione</option>
+                    <option value="AREQUIPA">AREQUIPA</option>
+                    <option value="CAJAMARCA">CAJAMARCA</option>
+                    <option value="CAMANA">CAMANA</option>
+                    <option value="DESAGUADERO">DESAGUADERO</option>
+                    <option value="CHICLAYO">CHICLAYO</option>
+                    <option value="MANCORA">MÁNCORA</option>
+                    <option value="ICA">ICA</option>
+                    <option value="ILO">ILO</option>
+                    <option value="JULIACA">JULIACA</option>
+                    <option value="LIMA">LIMA</option>
+                    <option value="MOQUEGUA">MOQUEGUA</option>
+                    <option value="NAZCA">NAZCA</option>
+                    <option value="PIURA">PIURA</option>
+                    <option value="PUNO">PUNO</option>
+                    <option value="SULLANA">SULLANA</option>
+                    <option value="TACNA">TACNA</option>
+                    <option value="TRUJILLO">TRUJILLO</option>
+                    <option value="TUMBES">TUMBES</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="destino">DESTINO <span class="required">*</span></label>
+                <select id="destino" name="destino" required>
+                    <option value="">Seleccione</option>
+                    <option value="AREQUIPA">AREQUIPA</option>
+                    <option value="CAJAMARCA">CAJAMARCA</option>
+                    <option value="CAMANA">CAMANA</option>
+                    <option value="DESAGUADERO">DESAGUADERO</option>
+                    <option value="CHICLAYO">CHICLAYO</option>
+                    <option value="MANCORA">MÁNCORA</option>
+                    <option value="ICA">ICA</option>
+                    <option value="ILO">ILO</option>
+                    <option value="JULIACA">JULIACA</option>
+                    <option value="LIMA">LIMA</option>
+                    <option value="MOQUEGUA">MOQUEGUA</option>
+                    <option value="NAZCA">NAZCA</option>
+                    <option value="PIURA">PIURA</option>
+                    <option value="PUNO">PUNO</option>
+                    <option value="SULLANA">SULLANA</option>
+                    <option value="TACNA">TACNA</option>
+                    <option value="TRUJILLO">TRUJILLO</option>
+                    <option value="TUMBES">TUMBES</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="salida">SALIDA <span class="required">*</span></label>
+                <input type="date" id="salida" name="salida" required>
+            </div>
+            <div class="form-group">
+                <label for="retorno">RETORNO (OPCIONAL) <span class="required">*</span></label>
+                <input type="date" id="retorno" name="retorno">
+            </div>
+            
+            <button type="submit" class="search-btn">Buscar</button>
+        </form>
+    </section>
+
+ <div class="main-content-wrapper">
+        
+        <main class="main-content">
+            <section class="section accordion">
+                <div class="accordion-header">
+                    <h2>Misión y Visión</h2>
+                    <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                    <p><strong>Misión:</strong> Ofrecer un servicio de transporte de pasajeros y encomiendas seguro, cómodo y de alta calidad, conectando a las principales ciudades del país y superando las expectativas de nuestros clientes.</p>
+                    <br>
+                    <p><strong>Visión:</strong> Ser la empresa de transporte líder en el Perú, reconocida por nuestra excelencia operativa, innovación tecnológica y compromiso con la satisfacción total de nuestros pasajeros.</p>
+                </div>
+            </section>
+
+            <section class="section accordion">
+                <div class="accordion-header">
+                    <h2>Nuestros Destinos</h2>
+                    <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                    <ul>
+                        <li><strong>Lima:</strong> La capital, centro de negocios y oportunidades.</li>
+                        <li><strong>Ica:</strong> Famosa por sus viñedos, desiertos y oasis de Huacachina.</li>
+                        <li><strong>Chincha:</strong> Cuna de la cultura afroperuana y su rica tradición.</li>
+                        <li><strong>Arequipa:</strong> La Ciudad Blanca, con su impresionante arquitectura y volcanes.</li>
+                    </ul>
+                </div>
+            </section>
+
+                        <section class="section accordion">
+                <div class="accordion-header">
+                    <h2>Servicio VIP Exclusivo</h2>
+                    <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                    <p>Disfruta de la comodidad de nuestro servicio VIP, diseñado para los viajeros más exigentes.</p>
+                    <ul>
+                        <li>Asientos reclinables 160°</li>
+                        <li>Entretenimiento a bordo (pantallas individuales)</li>
+                        <li>Conexión Wi-Fi gratuita</li>
+                        <li>Atención personalizada</li>
+    </ul>
+                </div>
+            </section>
+
+        <div class="our-services-showcase">
+            <h2>Nuestros Servicios de Transporte</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-circle">
+                        <img src="imagen-transporte.jpg" alt="Transporte de pasajeros">
+                    </div>
+                    <h3>Transporte de pasajeros</h3>
+                    <p>Servicio de transporte de pasajeros cómodo y seguro a diversos destinos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-circle">
+                        <img src="imagen-ecomienda.jpg" alt="Encomiendas y carga">
+                    </div>
+                    <h3>Encomiendas y carga</h3>
+                    <p>Servicio de envío de encomiendas y carga a nivel nacional con seguimiento.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-circle">
+                        <img src="imagen-servicio.png" alt="Servicios corporativos">
+                    </div>
+                    <h3>Servicios corporativos</h3>
+                    <p>Soluciones de transporte y logística para clientes empresariales y corporativos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-circle">
+                        <img src="imagen-convenio.png" alt="Convenios con empresas">
+                    </div>
+                    <h3>Convenios con empresas</h3>
+                    <p>Conviértete en uno de nuestros socios estratégicos y accede a beneficios exclusivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Contáctanos</h2>
+        <ul class="contact-info">
+            <li><strong>Teléfono:</strong> (51) 940 136 949</li>
+            <li><strong>Correo:</strong> yalemzvip@gmail.com</li>
+            <li><strong>Oficina Central:</strong> Ica av. Álamo 159</li>
+        </ul>
+    </section>
+    <section class="contact-whatsapp">
+    <h2>Contáctanos por WhatsApp</h2>
+    <a href="https://wa.me/51940136949?text=Hola,%20quiero%20más%20información" target="_blank" class="whatsapp-btn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="WhatsApp" class="whatsapp-icon">
+        Enviar mensaje
+    </a>
+</section>
+
+    <section class="reclamaciones-section">
+    <h2>Libro de Reclamaciones</h2>
+    <form class="reclamaciones-form" action="enviar_reclamacion.php" method="POST">
+        <div class="form-group">
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+        </div>
+        
+        <div class="form-group">
+            <label for="reclamacion">Escribe tu reclamación:</label>
+            <textarea id="reclamacion" name="reclamacion" rows="4" placeholder="Escribe tu reclamación aquí..."></textarea>
+        </div>
+        <button type="submit" class="reclamaciones-btn">Enviar Reclamación</button>
+    </form>
+    
+</section>
+    <footer class="footer">
+        <p><a href="terminos.html" target="_blank">Términos y Condiciones</a></p>
+        <p>&copy; 2025 Yalemz. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
